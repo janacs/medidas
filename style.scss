@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.medidas{
+    text-align: center;
+    //Nesting = Aninhamento
+    p{
+        background-color: crimson;
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+    }
+}
+
+.primeiraSessao_em{
+    background-color: orchid;
+    width: 400px;
+    height: 400px;
+    font-size: 10px;
+    //Nesting-Aninhamento
+    p{
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        font-size: 1em;
+        //O "em" e uma medida relativa ao tamanho do pai
+    }
+}
+
+.segundaSessao_rem{
+    background-color: olive;
+    color: azure;
+    width: 400px;
+    height: 400px;
+    //rem e relativo a raiz do html (padrao do html)
+    p{
+        width: 200px;
+        height: 200px;
+        background-color: brown;
+        font-size: 1rem;
+    }
+}
+
+.terceiraSessao_porcentagem{
+    background-color: black;
+    width: 400px;
+    height: 400px;
+
+    //Porcentagem e um valor relativo ao tamanho do pai
+    div{
+        background: navy;
+        width: 100%; //100% dos 400px da section
+        height: 50%;
+    }
+}
+
+.quartaSessao_vwvh{
+    background-color: green
+    width 400px;
+    height: 400px;
+    //vw - largura da tela que esta sendo exibida
+    //vh - largura da tela que esta sendo exibida
+    div{
+        background-color: darkcyan;
+        width: 50vw;
+        height: 100vh;
+    }
+}

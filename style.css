@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.medidas {
+  text-align: center;
+}
+.medidas p {
+  background-color: crimson;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.primeiraSessao_em {
+  background-color: orchid;
+  width: 400px;
+  height: 400px;
+  font-size: 10px;
+}
+.primeiraSessao_em p {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  font-size: 1em;
+}
+
+.segundaSessao_rem {
+  background-color: olive;
+  color: azure;
+  width: 400px;
+  height: 400px;
+}
+.segundaSessao_rem p {
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+  font-size: 1rem;
+}
+
+.terceiraSessao_porcentagem {
+  background-color: black;
+  width: 400px;
+  height: 400px;
+}
+.terceiraSessao_porcentagem div {
+  background: navy;
+  width: 100%;
+  height: 50%;
+}
+
+.quartaSessao_vwvh {
+  background-color: green width 400px;
+  height: 400px;
+}
+.quartaSessao_vwvh div {
+  background-color: darkcyan;
+  width: 50vw;
+  height: 100vh;
+}/*# sourceMappingURL=style.css.map */
